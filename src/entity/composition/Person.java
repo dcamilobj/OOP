@@ -1,7 +1,7 @@
 /**
  * 
  */
-package entity;
+package entity.composition;
 
 /**
  * @author Camilo Bedoya
