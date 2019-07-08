@@ -4,6 +4,8 @@ import entity.composition.Dog;
 import entity.composition.Human;
 import entity.polymorphism.Animal;
 import entity.polymorphism.Cat;
+import overriden.Child;
+import overriden.Parent;
 
 public class Main {
 
@@ -17,8 +19,12 @@ public class Main {
 		Animal cloud = new Cat();
 		System.out.print("polymorphism: ");
 		cloud.eat();
-		System.out.print(cloud.lifetime); //Don't override data members
+		System.out.println(cloud.lifetime); //Don't override data members
 		
+		/*Overriden example*/
+		Child anyThing = new Child();
+		System.out.print("Overriden: ");
+		anyThing.doSomething();
 		
 	}
 
